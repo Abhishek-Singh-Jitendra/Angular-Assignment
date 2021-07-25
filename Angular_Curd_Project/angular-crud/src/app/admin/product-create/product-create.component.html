@@ -1,0 +1,9 @@
+<form (submit)="submit()">
+    <label>Title</label>
+    <input type="text" name="title" [(ngModel)]="title">
+    <label>Price</label>
+    <input type="number" name="price" [(ngModel)]="price">
+    <label>Quantity</label>
+    <input type="number" name="quantity" [(ngModel)]="quantity">
+    <button type="submit">Add Product</button>
+</form>

@@ -1,0 +1,9 @@
+<form [formGroup]="form" (submit)="submit()">
+    <label>Title</label>
+    <input type="text" name="title" formControlName="title">
+    <label>Price</label>
+    <input type="number" name="price" formControlName="price">
+    <label>Quantity</label>
+    <input type="number" name="quantity" formControlName="quantity">
+    <button type="submit">Save</button>
+</form>
